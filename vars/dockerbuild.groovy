@@ -1,4 +1,4 @@
-def call (String ImageName, String ImageVersion){
+def call (String imageName, String imageVersion){
 
-  sudo sh "docker build -t ${ImageName}:${ImageVersion} ."
+  sudo sh "docker build -t ${imageName}:${imageVersion} ."
 }
